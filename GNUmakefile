@@ -28,3 +28,5 @@ slither:
 aderyn:
 	aderyn -x "ccip/Router.sol,ccip/ARMProxy.sol,ccip/ocr/OCR2Base.sol,ccip/ocr/OCR2BaseNoChecks.sol,ccip/ocr/OCR2Abstract.sol,ccip/PriceRegistry.sol,ccip/libraries/MerkleMultiProof.sol,ccip/libraries/RateLimiter.sol,ccip/libraries/USDPriceWith18Decimals.sol,ccip/pools/USDC/IMessageTransmitter.sol,ccip/pools/USDC/ITokenMessenger.sol,ccip/interfaces/IRouterClient.sol,ccip/interfaces/IRouter.sol,ccip/applications/CCIPClientExample.sol,ccip/applications/DefensiveExample.sol,ccip/applications/CCIPReceiver.sol,ccip/AggregateRateLimiter.sol,ccip/applications/PingPongDemo.sol"
 
+cloc:
+	cloc --list-file=cloc_list_files --by-file-by-lang --hide-rate > cloc_report

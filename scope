@@ -1,0 +1,22 @@
+ccip
+├── interfaces
+│   ├── IGetCCIPAdmin.sol
+│   ├── IOwner.sol
+│   ├── IPool.sol
+│   └── ITokenAdminRegistry.sol
+├── libraries
+│   ├── Client.sol
+│   ├── Internal.sol
+│   └── Pool.sol
+├── offRamp
+│   └── EVM2EVMOffRamp.sol
+├── onRamp
+│   └── EVM2EVMOnRamp.sol
+├── pools
+│   ├── USDC
+|   |   ├── USDCTokenPool.sol
+│   └── all contract at this layer
+├── tokenAdminRegistry
+│   ├── RegistryModuleOwnerCustom.sol
+│   └── TokenAdminRegistry.sol
+└── CommitStore.sol
